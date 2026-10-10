@@ -1,0 +1,13 @@
+# Exclude Cadence lock and log files
+*.cdslck*
+*.log
+*cdsinfo.tag
+
+# Exclude simulation run directories (ADE L/XL/Maestro states)
+simulation/
+maestro/results/
+netlist/
+
+# Exclude local environmental configs
+.cadence/
+cds.lib.local
